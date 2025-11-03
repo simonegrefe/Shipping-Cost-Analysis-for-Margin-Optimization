@@ -46,7 +46,6 @@ The transformation process involved cleaning, normalizing, and enriching data fr
 
 - Combined all datasets using unique identifiers.
 - Replaced missing product descriptions using data from the product table.
-- Standardized city names to lowercase for consistency.
 - Filtered out invalid records where `quantity`, `sales`, or `unit_price` were missing.
 
 ### 2. Data Normalization
@@ -110,7 +109,6 @@ Based on the analysis of shipping cost models and profitability:
 
 ## 🧩 Tools & Technologies
 
-- **Excel / CSV** – Raw data management and validation.
 - **SQL** – Data cleaning, integration, transformation, and profit modeling.
 - **Tableau** – Visualization and profitability comparison across shipping models.
 
