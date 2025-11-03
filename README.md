@@ -72,7 +72,7 @@ The transformation process involved cleaning, normalizing, and enriching data fr
 ### 5. Aggregation in Tableau
 
 - Imported the transformed dataset into **Tableau** for visualization and analysis.
-- Each record represented a single **invoice line (InvoiceLine)**, which was aggregated to the **invoice/order level (Order)** using **Level of Detail (LOD)** expressions.
+- aggregated **product line** to the **invoice/order level (Order)** using **Level of Detail (LOD)** expressions.
 - LOD calculations ensured accurate aggregation of measures, allowing precise comparison between the **Baseline** and **Hypothesis** shipping models.
 
 
