@@ -33,14 +33,14 @@ Objective Question: *How can we improve business profit based on the shipping of
 | `sales` | Contains information about each sale, including product, quantity, and price. |
 | `customers` | Includes customer identifiers and location information. |
 | `products` | Contains product descriptions, landed and shipping costs, weight, and category. |
-| `state_mapping` | Maps multiple variations of state codes and descriptions to standardized values. |
+| `state_region_mapping` | Maps multiple variations of state codes and descriptions to standardized values. |
 
 
 
 
 ## 🔄 Transformation Process
 
-The transformation process involved cleaning, normalizing, and enriching data from four raw CSV files — `sales`, `products`, `customers`, and `state-region mapping` — to prepare it for profitability and shipping-cost analysis in Tableau.
+The transformation process involved cleaning, normalizing, and enriching data from four raw CSV files — `sales`, `products`, `customers`, and `state_region_mapping` — to prepare it for profitability and shipping-cost analysis in Tableau.
 
 ### 1. Data Cleaning and Integration
 
@@ -125,7 +125,7 @@ shipping-cost-analysis/
 │      ├── raw_sales.csv
 │      ├── raw_products.csv
 │      ├── raw_customers.csv
-│      └── raw_mapping.csv
+│      └── raw_state_region_mapping.csv
 │
 ├── sql_data-preparation.sql        
 │
