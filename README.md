@@ -44,7 +44,7 @@ The transformation process involved cleaning, normalizing, and enriching data fr
 
 ### 1. Data Cleaning and Integration
 
-- Combined all datasets using unique identifiers such as `customer_id`, `stock_code`, and `order_state`.
+- Combined all datasets using unique identifiers.
 - Replaced missing product descriptions using data from the product table.
 - Standardized city names to lowercase for consistency.
 - Filtered out invalid records where `quantity`, `sales`, or `unit_price` were missing.
